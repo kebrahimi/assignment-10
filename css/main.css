@@ -1,0 +1,42 @@
+body {
+    font-family: 'Bitter', 'Georgia', serif;
+    background: #ffedf0;
+    color: #333;
+    margin: 2rem;
+  }
+
+  h1 {
+      font-family: 'Jost', 'Trebuchet MS', sans-serif;
+  }
+
+  p {
+    line-height: 1.3rem;
+  }
+
+  div {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
+
+  a:link{
+    color: #364634;
+  }
+  a:visited {
+    color: #541C42;
+  }
+  
+  a:hover {
+    color: #085C00;
+  }
+
+  @media screen and (max-width: 750px) {
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
